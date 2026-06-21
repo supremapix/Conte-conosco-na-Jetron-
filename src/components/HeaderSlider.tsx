@@ -137,7 +137,7 @@ export default function HeaderSlider() {
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-red-600 via-rose-500 to-blue-600 opacity-60 z-30" />
 
       {/* PC Slide Display Window with responsive aspect ratio to match widescreen flyers perfectly without vertical or horizontal black gaps */}
-      <div className="relative w-full aspect-[2.35/1] overflow-hidden bg-slate-950">
+      <div className="relative w-full aspect-[16/9] overflow-hidden bg-slate-950">
         <AnimatePresence initial={false} custom={direction} mode="popLayout">
           <motion.div
             key={currentIdx + "-pc"}

@@ -214,7 +214,7 @@ function getPageSEO(url: string) {
   // Default Fallback
   let title = "Jetron Curitiba | Reparo de Placa de Vídeo, MacBook e Reballing";
   let description = "Assistência técnica de alto nível em Curitiba. Especialistas em eletrônica de alta precisão, reballing de placas de vídeo, conserto de MacBooks, notebooks e PlayStation/Xbox.";
-  let ogImage = "https://img.supremamidia.com/suprema-img.png"; // Premium thumbnail
+  let ogImage = "https://img.jetron.com.br/img/jetorn-rebaling-pr.webp"; // Premium slider sharing thumbnail
   let type = "website";
 
   // Match Services
@@ -577,6 +577,11 @@ async function handleSEOMiddleware(req: Request, res: Response, next: NextFuncti
   <title>${seo.title}</title>
   <meta name="description" content="${seo.description}" />
   <link rel="canonical" href="${process.env.APP_URL || 'https://jetron.com.br'}${urlPath}" />
+  
+  <!-- Favicons for Google, Apple and major platforms -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <link rel="manifest" href="/site.webmanifest" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="${seo.type}" />

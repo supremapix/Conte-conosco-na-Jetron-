@@ -1,0 +1,17 @@
+{
+  "name": "Jetron Reballing & Tecnologia",
+  "short_name": "Jetron",
+  "description": "Assistência técnica especializada em microeletrônica industrial em Curitiba/PR.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
