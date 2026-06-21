@@ -1,0 +1,6 @@
+{
+  "name": "Jetron Curitiba - Assistência Técnica",
+  "description": "Assistência técnica especializada em eletrônicos de alta performance em Curitiba: reparo de placas de vídeo, reballing, Macs, notebooks e consoles.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

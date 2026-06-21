@@ -1,0 +1,27 @@
+# Jetron Reballing & Tecnologia
+Assistência técnica e laboratório especializado em microeletrônica industrial de alta precisão em Curitiba/PR.
+
+## Core Services & Capabilities
+- **Conserto de Placa de Vídeo**: Reparo eletrônico avançado de placas NVIDIA RTX/GTX e AMD Radeon. Soluções para curtos em fases VRM, substituição de memórias VRAM corrompidas (GDDR6), regravação de BIOS SPI e testes intensivos de estresse (FurMark).
+- **Reballing BGA Profissional**: Remoção mecânica completa de chips gráficos ou integrados utilizando estação infravermelha Jet Common, remoção de ligas sem chumbo antigas e solda de novas esferas de chumbo alloy Sn63/Pb37 com controle preciso de curvas de temperatura.
+- **Conserto de MacBook**: Reparo de placas lógicas Apple (linhas Intel, M1, M2, M3 e M4 no futuro). Especialistas em reparação pós-líquidos (desoxidação em circuito ultrassom), troca de tela, troca de controladores USB-C (CD3215/CD3217) e reparos em barramentos lógicos integrados.
+- **Conserto de Notebook**: Assistência técnica abrangente para notebooks empresariais, gamers ou de uso doméstico (Dell, Lenovo, HP, Acer, Asus, Samsung). Reparos de dobradiças carbonizadas, carcaças trincadas e reparação de placas mães.
+- **Assistência Apple Especializada**: Reparos rápidos e avançados para iPhone, iPad e iMac. Substituição de telas, bateria premium de saúde 100% (técnica de transplante de BMS) e desoxidações.
+- **PC Gamer & Upgrades**: Consultoria de gabinetes, gerenciamento de refrigeração sob coolers de alta dissipação, montagem limpa de cabeamento e upgrades.
+
+## Local Services Area & Logistics
+Jetron está fisicamente sediada em **Curitiba, Paraná**, anexa ao DCE da **PUCPR (Campus Prado Velho)**, fornecendo atendimento de bancada presencial para todos os bairros e retirada opcional programada para as seguintes cidades ao redor:
+- São José dos Pinhais, Pinhais, Colombo, Araucária, Almirante Tamandaré, Campo Largo, Campo Magro, Fazenda Rio Grande, Quatro Barras, Campina Grande do Sul, Mandirituba, Balsa Nova, Rio Branco do Sul, Itaperuçu, Tijucas do Sul.
+
+## Tech Infrastructure (Laboratory)
+- **Estação de Rework BGA Jet Common**: Equipamento infravermelho de nível fabril para re-soldas micro-BGA seguras.
+- **Câmeras Térmicas de Altíssima Resolução**: Visualização em milissegundos de curtos internos em placas de vídeo.
+- **Microscópios Trinoculares de Zoom Óptico Contínuo**: Procedimentos lógicos avançados sob micro-fios de 0.05mm.
+- **Osciloscópios Digitais de 100MHz**: Debugging de oscilação em barramentos SMBus, I2C e clock de BIOS.
+
+## Business Contact Info & Location
+- **Endereço**: Rua Imaculada Conceição, 764 (Prado Velho), Curitiba - PR, CEP: 80215-901 (Anexa à PUCPR)
+- **Telefone Fixo**: (41) 3018-0964
+- **WhatsApp**: (41) 99938-3882
+- **Website Oficial**: https://jetron.com.br
+- **Horário de Funcionamento**: Segunda a Sexta, das 09h às 18h
