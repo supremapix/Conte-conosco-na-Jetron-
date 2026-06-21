@@ -214,7 +214,7 @@ function getPageSEO(url: string) {
   // Default Fallback
   let title = "Jetron Curitiba | Reparo de Placa de Vídeo, MacBook e Reballing";
   let description = "Assistência técnica de alto nível em Curitiba. Especialistas em eletrônica de alta precisão, reballing de placas de vídeo, conserto de MacBooks, notebooks e PlayStation/Xbox.";
-  let ogImage = "https://img.jetron.com.br/img/jetorn-rebaling-pr.webp"; // Premium slider sharing thumbnail
+  let ogImage = "https://img.jetron.com.br/jetorn-rebaling-pr.webp"; // Premium slider sharing thumbnail
   let type = "website";
 
   // Match Services

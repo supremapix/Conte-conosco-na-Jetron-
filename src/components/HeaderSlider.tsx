@@ -20,10 +20,10 @@ export default function HeaderSlider() {
 
   const pcSlides = [
     {
-      img: "https://img.jetron.com.br/img/jetorn-rebaling-pr.webp",
+      img: "https://img.jetron.com.br/jetorn-rebaling-pr.webp",
     },
     {
-      img: "https://img.jetron.com.br/img/jetorn-rebaling.webp",
+      img: "https://img.jetron.com.br/jetorn-rebaling.webp",
     }
   ];
 
@@ -82,7 +82,7 @@ export default function HeaderSlider() {
     // Render perfectly responsive mobile view without aspect constraints, using native w-full h-auto layout flow for the flyer
     return (
       <div 
-        className="relative w-full overflow-hidden bg-slate-950 pt-0 border-b border-rose-500/10"
+        className="relative w-full overflow-hidden bg-black pt-0 border-b border-rose-500/10"
         id="aesthetic-header-mobile"
       >
         {/* Decorative top red line to lock into the header visual design */}
@@ -91,7 +91,7 @@ export default function HeaderSlider() {
         {/* Mobile Flyer Image (100% full height auto-responsive layout with NO cuts/crops) */}
         <div className="relative w-full">
           <img 
-            src="https://img.jetron.com.br/img/jetorn-rebaling-pr-cwb-puc.webp" 
+            src="https://img.jetron.com.br/jetorn-rebaling-pr-cwb-puc.webp" 
             alt="Jetron Reballing - Curitiba PUCPR"
             className="w-full h-auto block select-none"
             referrerPolicy="no-referrer"
@@ -109,7 +109,7 @@ export default function HeaderSlider() {
           </div>
           
           {/* Subtle depth gradient at bottom */}
-          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-slate-950 to-transparent pointer-events-none z-10" />
+          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black to-transparent pointer-events-none z-10" />
         </div>
 
         <style>{`
@@ -128,7 +128,7 @@ export default function HeaderSlider() {
   // Desktop Slide Screen Layout
   return (
     <div 
-      className="relative w-full overflow-hidden bg-slate-950 pt-0 border-b border-rose-500/10 group/slider"
+      className="relative w-full overflow-hidden bg-black pt-0 border-b border-rose-500/10 group/slider"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       id="aesthetic-header-slider"
@@ -137,7 +137,7 @@ export default function HeaderSlider() {
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-red-600 via-rose-500 to-blue-600 opacity-60 z-30" />
 
       {/* PC Slide Display Window with responsive aspect ratio to match widescreen flyers perfectly without vertical or horizontal black gaps */}
-      <div className="relative w-full aspect-[2.35/1] overflow-hidden bg-slate-950">
+      <div className="relative w-full aspect-[2.35/1] overflow-hidden bg-black">
         <AnimatePresence initial={false} custom={direction} mode="popLayout">
           <motion.div
             key={currentIdx + "-pc"}
@@ -148,14 +148,6 @@ export default function HeaderSlider() {
             exit="exit"
             className="absolute inset-0 w-full h-full flex items-center justify-center"
           >
-            {/* Background blurred elements */}
-            <img 
-              src={pcSlides[currentIdx].img} 
-              alt=""
-              className="absolute inset-0 w-full h-full object-cover select-none filter blur-2xl opacity-40 scale-110 pointer-events-none"
-              referrerPolicy="no-referrer"
-            />
-
             {/* Main content image using full size with cover/contain auto-bounding */}
             <img 
               src={pcSlides[currentIdx].img} 
@@ -164,8 +156,8 @@ export default function HeaderSlider() {
               referrerPolicy="no-referrer"
             />
 
-            <div className="absolute inset-0 bg-slate-950/20 mix-blend-multiply z-15 pointer-events-none" />
-            <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent z-15 pointer-events-none" />
+            <div className="absolute inset-0 bg-black/20 mix-blend-multiply z-15 pointer-events-none" />
+            <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black via-black/20 to-transparent z-15 pointer-events-none" />
 
             {/* HUD Graphics Overlay */}
             <div className="absolute inset-0 z-20 pointer-events-none flex flex-col justify-between">
